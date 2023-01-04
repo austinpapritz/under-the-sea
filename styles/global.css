@@ -55,17 +55,23 @@ main {
 .l-claw {
     background-image: url('../assets/left.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .r-claw {
     background-image: url('../assets/right.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 #sebastian {
     grid-column-start: 6;
     grid-column-end: 6;
     height: 200px;
+}
+
+.key {
+    background-image: url('../assets/shell.png');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
