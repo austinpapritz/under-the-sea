@@ -39,15 +39,15 @@ document.onkeydown = function (play) {
         : key === 't'
         ? new Audio('./assets/A.flac').play() && tClaw.classList.add('l-claw')
         : key === 'y'
-        ? new Audio('./assets/A.flac').play() && yClaw.classList.add('l-claw')
+        ? new Audio('./assets/A.flac').play() && yClaw.classList.add('r-claw')
         : key === 'u'
-        ? new Audio('./assets/A.flac').play() && uClaw.classList.add('l-claw')
+        ? new Audio('./assets/A.flac').play() && uClaw.classList.add('r-claw')
         : key === 'i'
-        ? new Audio('./assets/A.flac').play() && iClaw.classList.add('l-claw')
+        ? new Audio('./assets/A.flac').play() && iClaw.classList.add('r-claw')
         : key === 'o'
-        ? new Audio('./assets/A.flac').play() && oClaw.classList.add('l-claw')
+        ? new Audio('./assets/A.flac').play() && oClaw.classList.add('r-claw')
         : key === 'p'
-        ? new Audio('./assets/A.flac').play() && pClaw.classList.add('l-claw')
+        ? new Audio('./assets/A.flac').play() && pClaw.classList.add('r-claw')
         : key;
 };
 
@@ -64,15 +64,15 @@ document.onkeyup = function (play) {
         : key === 't'
         ? tClaw.classList.remove('l-claw')
         : key === 'y'
-        ? yClaw.classList.remove('l-claw')
+        ? yClaw.classList.remove('r-claw')
         : key === 'u'
-        ? uClaw.classList.remove('l-claw')
+        ? uClaw.classList.remove('r-claw')
         : key === 'i'
-        ? iClaw.classList.remove('l-claw')
+        ? iClaw.classList.remove('r-claw')
         : key === 'o'
-        ? oClaw.classList.remove('l-claw')
+        ? oClaw.classList.remove('r-claw')
         : key === 'p'
-        ? pClaw.classList.remove('l-claw')
+        ? pClaw.classList.remove('r-claw')
         : key;
 };
 
