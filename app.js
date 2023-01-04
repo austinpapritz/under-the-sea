@@ -10,6 +10,8 @@ const g = document.getElementById('g');
 const a = document.getElementById('a');
 const b = document.getElementById('b');
 const c5 = document.getElementById('c5');
+const d5 = document.getElementById('d5');
+const e5 = document.getElementById('e5');
 
 /* Events */
 
