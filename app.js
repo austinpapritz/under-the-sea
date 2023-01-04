@@ -29,7 +29,7 @@ const pClaw = document.getElementById('p-claw');
 document.onkeydown = function (play) {
     const key = play.key;
     key === 'q'
-        ? new Audio('./assets/C1.flac').play() && qClaw.classList.add('l-claw')
+        ? new Audio('./assets/q.flac').play() && qClaw.classList.add('l-claw')
         : key === 'w'
         ? new Audio('./assets/A.flac').play() && wClaw.classList.add('l-claw')
         : key === 'e'
