@@ -41,3 +41,7 @@ main {
 
     grid-template-columns: repeat(10, 1fr);
 }
+
+#keyboard-container div {
+    border: solid black 1px;
+}
