@@ -29,25 +29,25 @@ const pClaw = document.getElementById('p-claw');
 document.onkeydown = function (play) {
     const key = play.key;
     key === 'q'
-        ? new Audio('./assets/q.flac').play() && qClaw.classList.add('l-claw')
+        ? new Audio('./assets/notes/q.mp3').play() && qClaw.classList.add('l-claw')
         : key === 'w'
-        ? new Audio('./assets/A.flac').play() && wClaw.classList.add('l-claw')
+        ? new Audio('./assets/notes/w.mp3').play() && wClaw.classList.add('l-claw')
         : key === 'e'
-        ? new Audio('./assets/A.flac').play() && eClaw.classList.add('l-claw')
+        ? new Audio('./assets/notes/e.mp3').play() && eClaw.classList.add('l-claw')
         : key === 'r'
-        ? new Audio('./assets/A.flac').play() && rClaw.classList.add('l-claw')
+        ? new Audio('./assets/notes/r.mp3').play() && rClaw.classList.add('l-claw')
         : key === 't'
-        ? new Audio('./assets/A.flac').play() && tClaw.classList.add('l-claw')
+        ? new Audio('./assets/notes/t.mp3').play() && tClaw.classList.add('l-claw')
         : key === 'y'
-        ? new Audio('./assets/A.flac').play() && yClaw.classList.add('r-claw')
+        ? new Audio('./assets/notes/y.mp3').play() && yClaw.classList.add('r-claw')
         : key === 'u'
-        ? new Audio('./assets/A.flac').play() && uClaw.classList.add('r-claw')
+        ? new Audio('./assets/notes/u.mp3').play() && uClaw.classList.add('r-claw')
         : key === 'i'
-        ? new Audio('./assets/A.flac').play() && iClaw.classList.add('r-claw')
+        ? new Audio('./assets/notes/i.mp3').play() && iClaw.classList.add('r-claw')
         : key === 'o'
-        ? new Audio('./assets/A.flac').play() && oClaw.classList.add('r-claw')
+        ? new Audio('./assets/notes/o.mp3').play() && oClaw.classList.add('r-claw')
         : key === 'p'
-        ? new Audio('./assets/A.flac').play() && pClaw.classList.add('r-claw')
+        ? new Audio('./assets/notes/p.mp3').play() && pClaw.classList.add('r-claw')
         : key;
 };
 
