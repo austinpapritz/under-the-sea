@@ -35,17 +35,32 @@ main {
 
 #keyboard-container {
     display: grid;
+    grid-template-columns: repeat(10, 1fr);
     grid-column-start: 1;
     grid-column-end: 12;
     grid-row-start: 3;
-
-    grid-template-columns: repeat(10, 1fr);
 }
 
 #keyboard-container div {
     border: solid black 1px;
 }
 
-.claw-l {
-    background: ;
+#claw-container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 2;
+}
+
+.l-claw {
+    background-image: url('../assets/left.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.r-claw {
+    background-image: url('../assets/right.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
