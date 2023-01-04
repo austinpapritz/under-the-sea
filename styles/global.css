@@ -7,9 +7,8 @@
 
 body {
     font-family: var(--primary-font);
-    background: var(--background);
-    display: grid;
-    grid-template-rows: auto 1fr;
+    background: url('../assets/reef.png');
+    background-size: cover;
 }
 
 header {
