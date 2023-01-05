@@ -26,6 +26,8 @@ const oClaw = document.getElementById('o-claw');
 const pClaw = document.getElementById('p-claw');
 const bClaw = document.getElementById('[-claw');
 
+const slide = document.querySelector('.slide-img');
+
 /* Events */
 
 document.onkeydown = function (play) {
