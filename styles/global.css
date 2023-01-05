@@ -148,12 +148,13 @@ main {
     background: transparent url('/assets/sheet.png') 0 0 no-repeat;
     width: 1875;
     height: 400px;
-    animation: move 60s forwards infinite;
+    animation: move 30s forwards infinite;
+    animation-timing-function: linear;
 }
 
 @keyframes move {
     from {
-        ]background-position-y: 0;
+        background-position-y: 0;
     }
     to {
         background-position-y: -4081px;
