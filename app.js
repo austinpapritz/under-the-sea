@@ -12,6 +12,7 @@ const b = document.getElementById('b');
 const c5 = document.getElementById('c5');
 const d5 = document.getElementById('d5');
 const e5 = document.getElementById('e5');
+const f5 = document.getElementById('f5');
 
 const qClaw = document.getElementById('q-claw');
 const wClaw = document.getElementById('w-claw');
@@ -23,6 +24,7 @@ const uClaw = document.getElementById('u-claw');
 const iClaw = document.getElementById('i-claw');
 const oClaw = document.getElementById('o-claw');
 const pClaw = document.getElementById('p-claw');
+const bClaw = document.getElementById('[-claw');
 
 /* Events */
 
@@ -49,7 +51,7 @@ document.onkeydown = function (play) {
         : key === 'p'
         ? new Audio('./assets/notes/p.mp3').play() && pClaw.classList.add('r-claw')
         : key === '['
-        ? new Audio('./assets/notes/[.mp3').play() && pClaw.classList.add('r-claw')
+        ? new Audio('./assets/notes/[.mp3').play() && bClaw.classList.add('r-claw')
         : key;
 };
 
@@ -76,7 +78,7 @@ document.onkeyup = function (play) {
         : key === 'p'
         ? pClaw.classList.remove('r-claw')
         : key === '['
-        ? pClaw.classList.remove('r-claw')
+        ? bClaw.classList.remove('r-claw')
         : key;
 };
 
