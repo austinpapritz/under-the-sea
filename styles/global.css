@@ -70,8 +70,58 @@ main {
     height: 200px;
 }
 
-.key {
-    background-image: url('../assets/shell.png');
+#c4 {
+    background-image: url('../assets/shellQ.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#d4 {
+    background-image: url('../assets/shellW.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#e4 {
+    background-image: url('../assets/shellE.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#f {
+    background-image: url('../assets/shellR.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#g {
+    background-image: url('../assets/shellT.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#a {
+    background-image: url('../assets/shellY.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#b {
+    background-image: url('../assets/shellU.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#c5 {
+    background-image: url('../assets/shellI.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#d5 {
+    background-image: url('../assets/shellO.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#e5 {
+    background-image: url('../assets/shellP.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#f5 {
+    background-image: url('../assets/shellB.png');
     background-repeat: no-repeat;
     background-size: contain;
 }
