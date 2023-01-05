@@ -84,6 +84,9 @@ document.onkeyup = function (play) {
         : key;
 };
 
+//some sort of event listener for 's' key
+//target the keyframe 'to' 'background-position-y' value to change to -4081px
+
 /* Display Functions */
 
 // (don't forget to call any display functions you want to run on page load!)
