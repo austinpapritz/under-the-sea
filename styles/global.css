@@ -40,9 +40,9 @@ main {
     grid-row-start: 3;
 }
 
-#keyboard-container div {
-    /* border: solid black 1px; */
-}
+/* #keyboard-container div {
+    border: solid black 1px;
+} */
 
 #claw-container {
     display: grid;
