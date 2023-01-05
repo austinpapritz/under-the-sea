@@ -48,6 +48,8 @@ document.onkeydown = function (play) {
         ? new Audio('./assets/notes/o.mp3').play() && oClaw.classList.add('r-claw')
         : key === 'p'
         ? new Audio('./assets/notes/p.mp3').play() && pClaw.classList.add('r-claw')
+        : key === '['
+        ? new Audio('./assets/notes/[.mp3').play() && pClaw.classList.add('r-claw')
         : key;
 };
 
@@ -72,6 +74,8 @@ document.onkeyup = function (play) {
         : key === 'o'
         ? oClaw.classList.remove('r-claw')
         : key === 'p'
+        ? pClaw.classList.remove('r-claw')
+        : key === '['
         ? pClaw.classList.remove('r-claw')
         : key;
 };

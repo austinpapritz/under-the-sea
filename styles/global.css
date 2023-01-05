@@ -28,13 +28,13 @@ header {
 main {
     padding: 20px;
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: repeat(11, 1fr);
     grid-template-rows: 200px 258px 100px 1fr;
 }
 
 #keyboard-container {
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: repeat(11, 1fr);
     grid-column-start: 1;
     grid-column-end: 12;
     grid-row-start: 3;
@@ -46,7 +46,7 @@ main {
 
 #claw-container {
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: repeat(11, 1fr);
     grid-column-start: 1;
     grid-column-end: 12;
     grid-row-start: 2;
