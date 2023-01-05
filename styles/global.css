@@ -41,7 +41,7 @@ main {
 }
 
 #keyboard-container div {
-    border: solid black 1px;
+    /* border: solid black 1px; */
 }
 
 #claw-container {
