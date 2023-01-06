@@ -126,9 +126,21 @@ document.onkeyup = function (play) {
 // (don't forget to call any display functions you want to run on page load!)
 document.addEventListener('keydown', (e) => {
     if (e.code === 'KeyS') {
+        ghost.style.animation = 'move 60s forwards linear';
+        setTimeout(function () {
+            ghost.style.animation = '';
+        }, 55000);
+    }
+    if (e.code === 'KeyM') {
         ghost.style.animation = 'move 30s forwards linear';
         setTimeout(function () {
             ghost.style.animation = '';
         }, 27500);
+    }
+    if (e.code === 'KeyF') {
+        ghost.style.animation = 'move 20s forwards linear';
+        setTimeout(function () {
+            ghost.style.animation = '';
+        }, 18333);
     }
 });
