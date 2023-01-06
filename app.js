@@ -92,6 +92,9 @@ document.onkeyup = function (play) {
 // (don't forget to call any display functions you want to run on page load!)
 document.addEventListener('keydown', (e) => {
     if (e.code === 'KeyS') {
-        ghost.style.animation = 'move 30s forwards linear infinite';
+        ghost.style.animation = 'move 30s forwards linear';
+        setTimeout(function () {
+            ghost.style.animation = '';
+        }, 27500);
     }
 });
