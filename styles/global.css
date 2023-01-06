@@ -30,7 +30,7 @@ main {
     padding: 20px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 200px 258px 100px 1fr;
+    grid-template-rows: 200px 100px 100px 1fr;
 }
 
 #keyboard-container {
@@ -40,10 +40,6 @@ main {
     grid-column-end: 12;
     grid-row-start: 3;
 }
-
-/* #keyboard-container div {
-    border: solid black 1px;
-} */
 
 #claw-container {
     display: grid;
@@ -126,29 +122,12 @@ main {
     background-size: contain;
 }
 
-/* #ghost-note-container {
-    grid-row-start: 4;
-    background: transparent url('/assets/sheet.png') 0 0 no-repeat;
-    width: 1875px;
-    height: 1360px;
-    animation: move 90s forwards infinite;
-}
-
-@keyframes move {
-    from {
-        background-position: 0;
-    }
-    to {
-        background-position: -4081px;
-    }
-} */
-
 #ghost-note-container {
     grid-row-start: 4;
     background: transparent url('/assets/sheet.png');
     background-size: cover;
     width: 1875;
-    height: 400px;
+    height: 550px;
 }
 
 @keyframes move {
