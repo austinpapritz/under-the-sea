@@ -143,4 +143,8 @@ document.addEventListener('keydown', (e) => {
             ghost.style.animation = '';
         }, 18333);
     }
+
+    if (e.code === 'KeyX') {
+        location.reload();
+    }
 });
