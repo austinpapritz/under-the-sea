@@ -149,8 +149,6 @@ main {
     background-size: cover;
     width: 1875;
     height: 400px;
-    /* animation: move 15s forwards infinite; */
-    animation-timing-function: linear;
 }
 
 @keyframes move {
@@ -158,6 +156,6 @@ main {
         background-position-y: 0;
     }
     to {
-        background-position-y: -4081px;
+        background-position-y: -11446px;
     }
 }

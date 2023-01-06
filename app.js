@@ -91,9 +91,7 @@ document.onkeyup = function (play) {
 
 // (don't forget to call any display functions you want to run on page load!)
 document.addEventListener('keydown', (e) => {
-    console.log(`code=${e.code}`);
     if (e.code === 'KeyS') {
-        //do something with ghost.style //
-        ghost.style.animation = 'move 15s forwards infinite';
+        ghost.style.animation = 'move 30s forwards linear infinite';
     }
 });
