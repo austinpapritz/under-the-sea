@@ -123,6 +123,7 @@ main {
 }
 
 #ghost-note-container {
+    opacity: 0.85;
     grid-row-start: 4;
     background: transparent url('/assets/sheet.png');
     background-size: cover;
