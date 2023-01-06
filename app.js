@@ -33,31 +33,65 @@ const ghost = document.getElementById('ghost-note-container');
 document.onkeydown = function (play) {
     const key = play.key;
     key === 'q'
-        ? new Audio('./assets/notes/q.mp3').play() && qClaw.classList.add('l-claw')
+        ? new Audio('./assets/notes/q.mp3').play() &&
+          (c4.style.animation = 'shake 0.15s') &&
+          qClaw.classList.add('l-claw')
         : key === 'w'
-        ? new Audio('./assets/notes/w.mp3').play() && wClaw.classList.add('l-claw')
+        ? new Audio('./assets/notes/w.mp3').play() &&
+          (d4.style.animation = 'shake 0.15s') &&
+          wClaw.classList.add('l-claw')
         : key === 'e'
-        ? new Audio('./assets/notes/e.mp3').play() && eClaw.classList.add('l-claw')
+        ? new Audio('./assets/notes/e.mp3').play() &&
+          (e4.style.animation = 'shake 0.15s') &&
+          eClaw.classList.add('l-claw')
         : key === 'r'
-        ? new Audio('./assets/notes/r.mp3').play() && rClaw.classList.add('l-claw')
+        ? new Audio('./assets/notes/r.mp3').play() &&
+          (f.style.animation = 'shake 0.15s') &&
+          rClaw.classList.add('l-claw')
         : key === 't'
-        ? new Audio('./assets/notes/t.mp3').play() && tClaw.classList.add('l-claw')
+        ? new Audio('./assets/notes/t.mp3').play() &&
+          (g.style.animation = 'shake 0.15s') &&
+          tClaw.classList.add('l-claw')
         : key === 'y'
-        ? new Audio('./assets/notes/y.mp3').play() && yClaw.classList.add('r-claw')
+        ? new Audio('./assets/notes/y.mp3').play() &&
+          (a.style.animation = 'shake 0.15s') &&
+          yClaw.classList.add('r-claw')
         : key === 'u'
-        ? new Audio('./assets/notes/u.mp3').play() && uClaw.classList.add('r-claw')
+        ? new Audio('./assets/notes/u.mp3').play() &&
+          (b.style.animation = 'shake 0.15s') &&
+          uClaw.classList.add('r-claw')
         : key === 'i'
-        ? new Audio('./assets/notes/i.mp3').play() && iClaw.classList.add('r-claw')
+        ? new Audio('./assets/notes/i.mp3').play() &&
+          (c5.style.animation = 'shake 0.15s') &&
+          iClaw.classList.add('r-claw')
         : key === 'o'
-        ? new Audio('./assets/notes/o.mp3').play() && oClaw.classList.add('r-claw')
+        ? new Audio('./assets/notes/o.mp3').play() &&
+          (d5.style.animation = 'shake 0.15s') &&
+          oClaw.classList.add('r-claw')
         : key === 'p'
-        ? new Audio('./assets/notes/p.mp3').play() && pClaw.classList.add('r-claw')
+        ? new Audio('./assets/notes/p.mp3').play() &&
+          (e5.style.animation = 'shake 0.15s') &&
+          pClaw.classList.add('r-claw')
         : key === '['
-        ? new Audio('./assets/notes/[.mp3').play() && bClaw.classList.add('r-claw')
+        ? new Audio('./assets/notes/[.mp3').play() &&
+          (f5.style.animation = 'shake 0.15s') &&
+          bClaw.classList.add('r-claw')
         : key;
 };
 
 document.onkeyup = function (play) {
+    c4.style.animation = '';
+    d4.style.animation = '';
+    e4.style.animation = '';
+    f.style.animation = '';
+    g.style.animation = '';
+    a.style.animation = '';
+    b.style.animation = '';
+    c5.style.animation = '';
+    d5.style.animation = '';
+    e5.style.animation = '';
+    f5.style.animation = '';
+
     const key = play.key;
     key === 'q'
         ? qClaw.classList.remove('l-claw')
